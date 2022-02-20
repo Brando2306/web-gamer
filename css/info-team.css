@@ -1,0 +1,148 @@
+#team{
+    padding-top: 0%;
+    overflow: hidden;
+}
+
+.team {
+    width: 100vw;
+    position: relative;
+    margin: 400px 0 0;
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+/*para 2 columnas*/
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*para 1 columna*/
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /* border: 1px solid red; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS TEAM */
+
+.green-text {
+    color: #BFC500;
+}
+
+.team-top {
+    padding-top: 2rem !important;
+    margin: 2rem;
+    padding-left: 5rem;
+}
+
+.team-title {
+    font-size: 60PX;
+    margin-bottom: 10%;
+}
+
+.team-subtitle {
+    line-height: 30px;
+    margin: 1rem 0rem;
+}
+
+.team-box {
+    height: 100%;
+    margin-left: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.team-box>div {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.team-box>div>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    margin: 5px;
+    height: auto !important;
+    width: 40px !important;
+}
+
+/* ONLY TABLET AND MOBILE */
+
+@media screen and (max-width: 1023px) {
+    .team-top {
+        padding-top: 2rem;
+        margin: 2rem;
+        padding-left: 1rem;
+    }
+
+    .team-title {
+        font-size: 60PX;
+        margin-bottom: 10%;
+    }
+
+    .team-subtitle {
+        line-height: 30px;
+        margin: 1rem 0rem;
+    }
+}

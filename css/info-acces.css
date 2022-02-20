@@ -1,0 +1,138 @@
+#acces{
+    padding-top: 0%;
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+.background-acces{
+    width: 100vw;
+    position: relative;
+}
+
+#rock-1{
+    height: 2rem;
+    width: 2rem;
+}
+
+#rock-2{
+    height: 2rem;
+    width: 2rem;
+}
+
+#rock-3{
+    height: 3rem;
+    width: 3rem;
+}
+
+#rock-4{
+    height: 1rem;
+    width: 1rem;
+}
+
+#rock-5{
+    height: 2rem;
+    width: 2rem;
+}
+
+#rock-6{
+    height: 2rem;
+    width: 2rem;
+}
+
+#rock-7{
+    height: 2rem;
+    width: 2rem;
+}
+
+#rock-8{
+    height: 5rem;
+    width: 5rem;
+}
+
+.acces-info {
+    width: 100vw;
+    height: 850px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.acces-info-text {
+    margin-top: 17rem;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.acces-info-text p {
+    font-size: 1.5vw;
+    line-height: 65px;
+}
+
+.title-acces {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.subtitle-acces {
+    margin-top: -2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .acces-info {
+        background-size: cover;
+        background-position: center bottom;
+    }
+
+}
+
+/* ONLY TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .access-slider {
+        height: 680px;
+    }
+
+    .acces-info-text {
+        margin-top: 15rem;
+    }
+
+    .acces-info-text p {
+        font-size: 2.5vw;
+        line-height: 1.2;
+    }
+
+}
+
+/* ONLY MOBILE */
+@media screen and (max-width: 767px) {
+
+    .acces-info-text {
+        margin-top: 10rem;
+    }
+
+    .subtitle-acces {
+        margin-top: 0rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .acces-info-text p {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .background-acces{
+       padding: 0rem 1rem;
+    }
+}

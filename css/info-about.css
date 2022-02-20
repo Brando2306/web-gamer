@@ -1,0 +1,59 @@
+#about{
+    padding-top: 0%;
+    overflow: hidden;
+}
+
+.about {
+    padding: 15% 0;
+    width: 100vw;
+    position: relative;
+}
+
+.about-top {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 25PX;
+    margin-bottom: 10%;
+}
+
+.about-subtitle {
+    font-size: 20PX;
+    line-height: 30px;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.about-container {
+    padding: .5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ONLY MOBILE */
+
+@media screen and (max-width: 767px) {
+
+    .about-image {
+        min-width: 33rem;
+        width: 33rem;
+    }
+
+    .about-subtitle {
+        font-size: 14PX;
+    }
+    
+    .about-top {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+
+}

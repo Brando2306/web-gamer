@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap");
+
+.avatar-info {
+    width: 100vw;
+    height: 850px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar-info-text {
+    margin-top: 35rem;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-avatar {
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.avatar-info-text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .avatar-info {
+        background-size: cover;
+        background-position: center bottom;
+    }
+
+    #fontar {
+        margin-top: -10px !important;
+        line-height: 30px;
+    }
+
+    .subtitle-avatar {
+        padding-top: 17px !important;
+    }
+
+}
+
+/* ONLY TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .avatars-slider {
+        height: 680px;
+    }
+
+    .avatar-info-text {
+        margin-top: 33rem;
+    }
+
+    .avatar-info-text p {
+        font-size: 2.5vw;
+        line-height: 1.2;
+        margin-top: 1rem;
+    }
+
+}
+
+/* ONLY MOBILE */
+@media screen and (max-width: 767px) {
+
+    .avatar-info-text {
+        margin-top: 35rem;
+    }
+
+    .avatar-info-text p {
+        font-size: 14px;
+        line-height: 1.2;
+        margin-top: 0.7rem;
+    }
+
+    #fontar {
+        font-size: 18px;
+    }
+}

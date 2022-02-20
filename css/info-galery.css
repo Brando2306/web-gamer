@@ -1,0 +1,224 @@
+.galery-slider {
+    margin: 200px 0!important;
+}
+
+.carousel-cell {
+    margin-right: 20px!important;
+    overflow: hidden!important;
+    height: 37vw!important;
+    width: 35vw!important;
+    transition: width 0.3s!important;
+}
+
+.carousel-cell img {
+    display: block!important;
+    height: 100%!important;
+    width: 100%!important;
+}
+
+.galery-slider {
+    height: 40vw!important;
+}
+
+.galery-slider .flickity-page-dots {
+    bottom: -10px!important;
+}
+
+.god-slider .flickity-prev-next-button {
+    top: 62%!important;
+}
+
+.lore-slider .flickity-page-dots {
+    bottom: -150px!important;
+}
+
+.lore-slider-mobile .flickity-page-dots {
+    padding: 0 30px!important;
+}
+
+.flickity-page-dots {
+    height: 0px!important;
+}
+
+.flickity-page-dots .dot.is-selected {
+    transform: rotate(45deg) scale(1.6)!important;
+}
+
+/* dots are lines */
+.flickity-page-dots .dot {
+    background-color: #e2e2e2!important;
+    height: 10px!important;
+    width: 10px!important;
+    margin: 0px 1.1vw;
+    border-radius: 0!important;
+    transform: rotate(45deg)!important;
+}
+
+.flickity-page-dots .dot:hover {
+    background-color: #e2e2e2!important;
+}
+
+.flickity-page-dots .dot {
+    margin: 0px 1.4vw!important;
+}
+
+.gods .flickity-page-dots {
+    bottom: -80px!important;
+    z-index: 5!important;
+}
+
+.flickity-viewport {
+    width: 100vw!important;
+    height: 40vw!important;
+}
+
+/* no circle */
+.flickity-button {
+    background: transparent!important;
+    color: white!important;
+}
+
+/* icon color */
+.flickity-button-icon {
+    fill: white!important;
+    margin-left: -.5rem;
+}
+
+.previous{
+    margin-left: 1rem!important;
+}
+
+.next{
+    margin-right: 1rem!important;
+}
+
+/* hide disabled button */
+.flickity-button:disabled {
+    display: none!important;
+}
+
+
+/* big previous & next buttons */
+.flickity-prev-next-button {
+    width: 30px!important;
+    height: 30px!important;
+}
+
+@media screen and (max-width: 767px) {
+
+    .lore,
+    .roadmap,
+    .gods,
+    .galery-slider {
+        margin: 250px 0!important;
+    }
+
+    .galery-slider {
+        height: 480px!important;
+    }
+
+    .carousel-cell {
+        height: 400px!important;
+        width: 70vw!important;
+    }
+
+}
+
+/* ONLY DESKTOP */
+@media screen and (min-width: 1401px) {
+    .flickity-button.flickity-prev-next-button.previous {
+        left: 3.6rem!important;
+    }
+
+    .flickity-button.flickity-prev-next-button.next {
+        right: 3.6rem!important;
+    }
+    
+    .flickity-page-dots{
+        margin-bottom: -7rem!important;
+    }
+
+    .flickity-button{
+        margin-top: 5rem!important;
+    }
+}
+
+/* ONLY TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .lore,
+    .roadmap,
+    .gods,
+    .galery-slider {
+        margin: 350px 0!important;
+    }
+
+    .galery-slider {
+        height: 680px!important;
+    }
+
+    .carousel-cell {
+        height: 600px!important;
+        width: 70vw!important;
+    }
+
+    .flickity-page-dots{
+        margin-bottom: 45rem!important;
+    }
+
+    .flickity-button{
+        margin-top: -25rem!important;
+    }
+}
+
+/* HORIZONTAL TABLET */
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .galery-slider {
+        height: 42vw!important;
+    }
+
+    .god-slider .flickity-viewport {
+        height: 51vw!important;
+    }
+
+    .carousel-cell {
+        height: 38vw!important;
+    }
+}
+
+/* MOBILE AND TABLET */
+@media screen and (max-width: 1023px) {
+    .flickity-viewport {
+        width: 100vw!important;
+        height: 115vw!important;
+    }
+
+    .carousel-cell img {
+        object-fit: cover!important;
+    }
+
+    
+    /* .flickity-page-dots{
+        margin-bottom: 18rem!important;
+    } */
+}
+
+@media screen and (max-height: 768px) and (max-width: 500px) {
+    
+    .god-slider .flickity-viewport {
+        height: 110vw!important;
+    }
+
+}
+
+/* ONLY MOBILE */
+@media screen and (max-width: 767px) {
+
+    .flickity-page-dots{
+        margin-bottom: -5rem!important;
+    }
+
+    .flickity-button{
+        margin-top: 5rem!important;
+    }
+}

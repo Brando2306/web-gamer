@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Guardians';
+    src: url('../fonts/Guardians.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.road{
+    /* padding: 200px 0px!important; */
+    margin-top: -12rem!important;
+    width: 100vw;
+    position: relative;
+}
+
+#roadmap{
+    margin-top: 15rem!important;
+    margin-bottom: 5rem!important;
+    overflow: hidden;
+}
+
+.road h1{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.road-title {
+    position: relative;
+    margin-bottom: 100px;
+    padding-top: 150px;
+}
+
+#road-title{
+    font-family: 'Guardians';
+    font-size: 18px;
+}
+
+#road-subtitle{
+    font-family: 'Guardians';
+    font-size: 16px;
+}
+
+#road-landscape{
+    margin-bottom: -20rem;
+}
+
+#road-portrait{
+    margin-bottom: 7rem;
+}
+
+.road-subtitle{
+    font-size: 20px;
+    margin: 1rem 0px;
+}
+
+.grid {
+    margin-top: -5rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 350px);
+    grid-gap: 0px 5rem;
+    /* grid-gap: 50px 5rem; ROAD MAP GRID */
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+.red-text{
+    color: #FF0000;
+}
+
+/* ONLY TABLET AND MOBILE */
+
+@media screen and (max-width: 1023px) {
+    .road-container {
+        width: 100%;
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #roadmap{
+        padding-bottom: 55rem!important;
+    }
+}
+
+/* ONLY MOBILE */
+@media screen and (max-width: 767px) {
+    .road-subtitle{
+        font-size: 14px;
+    }
+    .road-title{
+        margin-bottom: 0px;
+    }
+}
